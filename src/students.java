@@ -30,7 +30,7 @@ public class students {
                     .append(matricule)
                     .append("\n");
 
-            System.out.println("Étudiant ajouté avec succès !");
+            System.out.println("Étudiant " + name + " ajouté avec succès !");
         } catch (IOException e) {
             System.out.println("Erreur lors de l'écriture du fichier : " + e.getMessage());
         }
